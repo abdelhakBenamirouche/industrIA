@@ -1,0 +1,36 @@
+.modle-3d {
+  height: 300px;
+  width: 470px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.toggle {
+  height: 30px;
+  width: 200px;
+  /* border: red 2px solid; */
+  position: absolute;
+  left: 220px;
+  top: 150px;
+  z-index: 99;
+}
+
+.details {
+  border: 2px solid yellowgreen;
+  display: none;
+}
+
+.details p {
+  color: aliceblue;
+}
+
+.details p.ttl {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.details p.warning {
+  color: rgb(206, 102, 41);
+  font-size: 18px;
+}

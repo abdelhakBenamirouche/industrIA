@@ -1,0 +1,29 @@
+.navigation {
+  height: 80px;
+  background-color: #ffffff7e;
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 3px 15px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-item:hover {
+  background-color: rgba(128, 128, 128, 0.159);
+}
+
+.nav-link {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.2em;
+}
